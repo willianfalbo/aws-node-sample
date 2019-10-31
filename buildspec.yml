@@ -30,4 +30,4 @@ artifacts:
     - app.js
     - package.json
     - src/app/*
-    - node_modules/*
+    - node_modules/**/*
