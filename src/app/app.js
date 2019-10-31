@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/api', routes);
+app.use('/', routes);
 
 var port = process.env.PORT || 3000;
 app.listen(port, () => {
