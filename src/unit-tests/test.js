@@ -1,6 +1,6 @@
 /*************Test******************/
 var test = require('unit.js');
-var str = 'Error from Forma Turismo!';
+var str = 'Hello World!';
 
 test.string(str).startsWith('Hello');
 
